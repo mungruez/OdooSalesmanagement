@@ -7,8 +7,8 @@
             <form>
                 <sheet>
                     <group>
-                        <field name="customer_name"/>
-                        <field name="email_id"/>
+                        <field name="id"/>
+                        <field name="customer_email"/>
                     </group>
                 </sheet>
             </form>
@@ -20,8 +20,8 @@
         <field name="model">shop.customer</field>
         <field name="arch" type="xml">
             <tree>
-                <field name="customer_name"/>
-                <field name="email_id"/>
+                <field name="id"/>
+                <field name="customer_email"/>
             </tree>
         </field>
      </record>
