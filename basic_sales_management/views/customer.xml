@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"/>
+<odoo>
+    <record id="view_shop_customer_form" model="ir.ui.view">
+        <field name="name">shop.customer.form</field>
+        <field name="model">shop.customer</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <field name="customer_name"/>
+                        <field name="email_id"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_shop_customer_tree" model="ir.ui.view">
+        <field name="name">shop.customer.tree</field>
+        <field name="model">shop.customer</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="customer_name"/>
+                <field name="email_id"/>
+            </tree>
+        </field>
+     </record>
+
+    <record id="action_shop_customer" model="ir.actions.act_window">
+        <field name="name">Customers</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">shop.customer</field>
+        <field name="view_type">form</field>
+        <field name="view_mode">tree,form</field>
+        <field name="domain">[('customer.id','=',active_id)]</field>
+        <field name="help" type="html">
+          <p class="o_view_nocontent_smiling_face">
+            Create a new Customer !
+          </p>
+        </field>
+    </record> 
+
+    <menuitem id="menu_customers"
+        name="Customers"
+        parent="menu_shop_operations"
+        action="action_shop_customer"/>
+</odoo>
