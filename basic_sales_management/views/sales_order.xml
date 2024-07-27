@@ -17,8 +17,8 @@
         <field name="shop_order_lines">
             <tree>
                 <field name="product_id"/>
-                <field name="product_qty"/>
-                <field name="sales_order_id"/>
+                <field name="product_qunatity"/>
+                <field name="sales_order_line"/>
             </tree>
             <form>
                 <group>
@@ -26,7 +26,7 @@
                         <field name="product_id"/>
                     </group>
                     <group>
-                        <field name="product_qty"/>
+                        <field name="product_quantity"/>
                     </group>
                 </group>
             </form>
