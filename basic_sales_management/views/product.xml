@@ -30,7 +30,6 @@
         <field name="name">Products</field>
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">shop.product</field>
-        <field name="view_type">form</field>
         <field name="view_mode">tree,form</field>
         <field name="domain">[('product_id','=',active_id)]</field>
         <field name="help" type="html">
