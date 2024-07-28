@@ -1,4 +1,4 @@
-from odoo import models, fields, api,  _
+from odoo import models, fields
 
 class ShopSalesOrder(models.Model):
     _name = 'shop.sales.order'
