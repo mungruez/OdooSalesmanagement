@@ -42,5 +42,6 @@
     <menuitem id="menu_products"
         name="Products"
         parent="menu_shop_operations"
+        sequence="10"
         action="action_shop_product"/>
 </odoo>
