@@ -1,5 +1,4 @@
-from odoo import models, fields, api,  _
-
+from odoo import models, fields
 
 class ShopCustomer(models.Model):
     _name = 'shop.customer'
