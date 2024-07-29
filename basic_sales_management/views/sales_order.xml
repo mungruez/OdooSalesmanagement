@@ -1,38 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
-    <record id="view_shop_order_form" model="ir.ui.view">
-        <field name="name">shop.sales_order.form</field>
-        <field name="model">shop.sales.order</field>
-        <field name="arch" type="xml">
-            <form>
-                <sheet>
-                    <group>
-                        <field name="customer_id"/>
-                        <field name="order_date"/>
-                    </group>
-                </sheet>
-            </form>
-        </field>
-        <field name="shop_order_lines">
-            <tree>
-                <field name="product_id"/>
-                <field name="product_qunatity"/>
-                <field name="sales_order_line"/>
-            </tree>
-            <form>
-                <group>
-                    <group>
-                        <field name="product_id"/>
-                    </group>
-                    <group>
-                        <field name="product_quantity"/>
-                    </group>
-                </group>
-            </form>
-        </field>
-    </record>
-
     <record id="view_shop_customer_tree" model="ir.ui.view">
         <field name="name">shop.sales.order.tree</field>
         <field name="model">shop.sales.order</field>
