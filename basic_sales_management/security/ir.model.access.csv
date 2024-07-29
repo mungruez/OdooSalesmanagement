@@ -1,8 +1,5 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_shop_customer, access.shop.customer, model_shop_customer,,1,1,1,1
-
-access_shop_product, access.shop.product, model_shop_product,,1,1,1,1
-
-access_shop_sales_order, access.shop.sales.order, model_shop_sales_order,,1,1,1,1
-
-access_shop_sales_order_line, access.shop.sales.order.line, model_shop_sales_order_line,,1,1,1,1
+access_shop_customer,shop.customer,model_shop_customer,base.group_user,1,1,1,1
+access_shop_product,shop.product,model_shop_product,base.group_user,1,1,1,1
+access_shop_sales_order, shop.sales.order,model_shop_sales_order,base.group_user,1,1,1,1
+access_shop_sales_order_line, shop.sales.order.line,model_shop_sales_order_line,base.group_user,1,1,1,1
