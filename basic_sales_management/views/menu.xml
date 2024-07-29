@@ -4,10 +4,4 @@
         name="Shop"
         sequence="10"/>
     
-    <menuitem id="menu_shop_operations"
-        name="Operations"
-        parent="menu_shop_root"
-        sequence="10"
-        action="action_shop_config_settings"/> 
-    
 </odoo>
