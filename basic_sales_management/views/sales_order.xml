@@ -9,7 +9,7 @@
                 <sheet>
                     <group>
                         <field name="customer_id"/>
-                        <field name="order_date">
+                        <field name="order_date"/>
                     </group>
                 </sheet>
             </form>
