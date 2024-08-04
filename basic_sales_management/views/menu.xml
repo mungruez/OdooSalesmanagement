@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <menuitem id="menu_shop_root"
-        name="Shop"
+        name="Sales Management"
         sequence="10"/>
+    
+    <menuitem id="menu_shop_sales_order"
+        name="Sales Order"
+        parent="menu_shop_root"
+        sequence="60"/>
     
 </odoo>
