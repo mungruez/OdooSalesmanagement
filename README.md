@@ -1,5 +1,4 @@
-# OdooSalesmanagement
-##Sales Management Odoo Module 
+# Odoo 17 - Basic Sales Management Module 
 
 databaename :odoosm 
 db_user:  openpg
@@ -28,9 +27,15 @@ Sales Order Test Data:
 {'customer_id': 2, 'order_date': '04/12/2023', 'sales_order_lines': 3}
 
 
-
 Sales Order Line Test Data:
 
 {'quantity':1, 'product_id':1, 'sales_order':1}
 {'quantity':1, 'product_id':2, 'sales_order':1}
 {'quantity':1, 'product_id':4, 'sales_order':2}
+
+Module Features:
+Add , Edit, view and Delete Customers, Products and Sales Orders
+Sales Order Lines and added inline using the Create Sales Order menu Button
+
+To Be Completed:
+Sales oder Lines are not allowed to be edited because the one2many fields of the models are not showing in the UI.  
